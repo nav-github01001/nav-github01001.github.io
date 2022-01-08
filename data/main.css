@@ -20,3 +20,9 @@ a.hover{
     text-decoration: none;
 }
 
+
+
+.projectEmphasis{
+    border: 2px solid burlywood;
+    background-color: darkkhaki;
+}
