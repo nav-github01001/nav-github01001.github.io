@@ -27,3 +27,16 @@ a.hover{
     border: 2px solid burlywood;
     background-color: darkkhaki;
 }
+
+.nav-bar{
+    background-color: rgb(196, 140, 19);
+    border-radius: 15px;
+    
+}
+img.nav-img{
+    vertical-align: top;
+}
+
+.navlink{
+    vertical-align: middle;
+}
