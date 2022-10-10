@@ -597,6 +597,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-blue-700 {
   --tw-text-opacity: 1;
   color: rgb(29 78 216 / var(--tw-text-opacity));
@@ -650,9 +655,18 @@ img.nav-img{
   vertical-align: middle;
 }
 
+body{
+  background-image: url(https://www.nasa.gov/mission_pages/hubble/multimedia/index.html#);
+}
+
 @media (prefers-color-scheme: dark) {
   .dark\:bg-slate-800 {
     --tw-bg-opacity: 1;
     background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+  }
+
+  .dark\:text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 }
