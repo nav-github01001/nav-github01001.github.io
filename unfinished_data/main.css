@@ -47,5 +47,11 @@ img.nav-img{
 }
 
 body{
-    background-image: url(https://www.nasa.gov/mission_pages/hubble/multimedia/index.html#);
+    background-image: url(https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/gsfc_20171208_archive_e000226_orig.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content{
+    
 }
