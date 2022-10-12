@@ -14,7 +14,7 @@
         <!-- <script src="https://cdn.tailwindcss.com"></script> -->
         <title>Welcome to Falcon's Personal Website</title>
     </head>
-    <body class="body">
+    <body class="backdrop-blur-sm">
         <script src="./falcon.js" defer></script>
         <header>
             <nav class="text-3xl text-blue-700 font-mono items-stretch flex bg-lime-300 rounded">Fa1c0n's Website | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -26,20 +26,30 @@
             </nav>
             
         </header>
-        <div class="text-white">
-            <br>
-            <p class="text-center font-mono text-4xl"> You've landed on Fa1c0n's Website</p>
-            <div class="font-mono backdrop-blur-sm border-2 border-white">
-                <p class="text-center text-xl"><b>Welcome to my website! </b></p>
+        <p class="text-center font-mono text-4xl text-white"> You've landed on Fa1c0n's Website</p>
+        <br>
+        <div class="text-white content font-mono ">
+            <div>
+                <p class="text-xl text-center"><b>Welcome to my website! </b></p>
                 <br>
-                <p>Here I post about my projects, updates and more. Below are my main projects</p>
-            
-            
+                <p >This website is about my experiences with computers. This is an unfinished website ,yet I have a few projects to show while you're waiting</p>
                 <br>
-                <div class="content rounded-md backdrop-blur-2xl">
-                    <p><b><a href="./pages/projects.html" target="_blank" class="underline text-blue-600">My main bot, used by me to learn about Discord and it's labrynth of API's </a></b></p>
-                </div>
             </div>
+            <div id="projects" class="rounded-md  backdrop-blur-xl">
+                <ul class="underline text-lime-400">
+                    <li><b><a href="./pages/projects.html#bot" target="_blank">My main bot, used by me to learn about Discord and it's labyrinth of APIs </a></b></li>
+                    <!-- <li><b><a href="./pages/projects.html"></a></b></li> -->
+                </ul>
+                <br>
+                <p class="text-xl">Former projects</p>
+                <br>
+                <p>These are projects I have formerly worked on and are still active today.</p>
+                <br>
+                <ul class="underline text-lime-400">
+                    <li><b><a href="https://github.com/EpikCord/EpikCord.py" target="_blank">An Discord Wrapper library built in Python by TheUntraceable</a> </a></b></li>
+                </ul>
+            </div>
+            
         </div>
 
     </body>

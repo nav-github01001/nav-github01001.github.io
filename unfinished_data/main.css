@@ -2,56 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-h1 {
-    color: blue;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
-}
-p.project { 
-    color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-a.link{
-    color:darkblue;
-
-}
-a.visited{
-    color: fuchsia;
-}
-
-a.hover{
-    text-decoration: none;
-}
-
-
-
-
-.projectEmphasis{
-    border-radius: 15px ;
-    border: 2px solid burlywood;
-    background-color: darkkhaki;
-}
-
-.nav-bar{
-    background-color: rgb(196, 140, 19);
-    border-radius: 15px;
-    
-}
-img.nav-img{
-    vertical-align: top;
-}
-
-.navlink{
-    vertical-align: middle;
-}
-
 body{
-    background-image: url(https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/gsfc_20171208_archive_e000226_orig.jpg);
+    background-image: url(./assets/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .content{
-    
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
 }
