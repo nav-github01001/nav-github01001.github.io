@@ -2,7 +2,7 @@ html, body, .main-container {
   height: 100%;
 }
 body{
-  background-image: linear-gradient(#000000 25%,75%, #0f0f0f);
+  background-image: linear-gradient( #870099 25%,75%, #0044ff);
 }
 .main-container {
   display: flex;
@@ -17,21 +17,20 @@ body{
   font-style: normal;
 }
 
-.main-button-container{
-  display: flex;
-  
-}
 
 .link-button{
   background-color: #1f1f1f;
-  float: left;
-  border:5px white;
   color: white;
   border-radius: 5px;
   padding: 5px 20px;
   font-size: 16px;
+  margin: 10px;
 }
 
+
+.description{
+  color: white;
+}
 h1{
   font-size: 90px;
   color: #ffffff;
