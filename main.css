@@ -27,7 +27,16 @@ body{
   margin: 10px;
 }
 
+.main-name h1::after{
+  content:"_";
+  animation: cursor-blink 1s steps(2) infinite;
+}
 
+@keyframes cursor-blink{
+  0%{
+    opacity: 0;
+  }
+}
 .description{
   color: white;
 }
